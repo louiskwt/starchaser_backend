@@ -2,11 +2,15 @@
   "name": "starchaser_backend",
   "version": "1.0.0",
   "description": "The backend system for starchaser's operations",
-  "main": "index.js",
+  "main": "server.js",
   "author": "LT",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "telegraf": "^4.11.2"
   }
 }
