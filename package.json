@@ -1,0 +1,12 @@
+{
+  "name": "starchaser_backend",
+  "version": "1.0.0",
+  "description": "The backend system for starchaser's operations",
+  "main": "index.js",
+  "author": "LT",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  }
+}
