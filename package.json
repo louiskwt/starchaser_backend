@@ -1,7 +1,7 @@
 {
   "name": "starchaser_backend",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/server.js",
   "repository": "git@github.com:louiskwt/starchaser_backend.git",
   "author": "tkw",
   "license": "MIT",
@@ -12,8 +12,8 @@
   },
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts"
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
