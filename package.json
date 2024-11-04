@@ -6,6 +6,7 @@
   "author": "tkw",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1"
   },
@@ -15,6 +16,7 @@
     "dev": "nodemon src/index.ts"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.8.7",
     "concurrently": "^9.0.1",
